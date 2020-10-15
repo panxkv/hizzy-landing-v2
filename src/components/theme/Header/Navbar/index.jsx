@@ -5,7 +5,6 @@ import { Container } from 'components/common';
 import NavbarLinks from '../NavbarLinks';
 import { Wrapper, Brand } from './styles';
 import dev from 'assets/illustrations/HizzyLogo.svg';
-import {Thumbnail} from '../../../landing/Skills/styles';
 
 const Navbar = () => {
   const { theme } = useContext(ThemeContext);
@@ -13,7 +12,7 @@ const Navbar = () => {
   return (
     <Wrapper as={Container}>
       <Brand as={Link} to="/" theme={theme}>
-          <img src={dev} />
+        <img src={dev} />
       </Brand>
       <NavbarLinks desktop />
     </Wrapper>
