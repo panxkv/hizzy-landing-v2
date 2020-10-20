@@ -1,72 +1,78 @@
 import React from 'react';
-import dev from 'assets/illustrations/Landlord_appointments.svg';
-import dev2 from 'assets/illustrations/Landlord_payments.svg';
+import LandlordMultipleOffersImg from 'assets/illustrations/Landlord_Multiple_Offers.svg';
+import LandlordAppointmentsImg from 'assets/illustrations/Landlord_appointments.svg';
+import RenterRemoteVisitImg from 'assets/illustrations/Renter_Remote_Visit.svg';
+import LandlordRenterApproveImg from 'assets/illustrations/Landlord_renter_approve.svg';
+import LandlordPaymentsImg from 'assets/illustrations/Landlord_payments.svg';
+import RenterOnlineContractImg from 'assets/illustrations/Renter_Online_Contract.svg';
 import { DoubleBox } from 'components/common/DoubleBox';
+import { LeftDoubleBox } from 'components/common/LeftDoubleBox';
 
-export const TenantInfo = () => (
+export const LandLordInfo = () => (
   <>
     <DoubleBox
-      imgSrc={dev}
+      imgSrc={LandlordMultipleOffersImg}
       detailsContent={
         <>
-          <h1>Oglądanie mieszkania online</h1>
+          <h1>Kreator ofert</h1>
+          <p>Dodawaj jedną lub wiele ofert przy pomocy wygodnego kreatora ofert</p>
+        </>
+      }
+    />
+
+    <LeftDoubleBox
+      imgSrc={LandlordAppointmentsImg}
+      detailsContent={
+        <>
+          <h1>Kalendarz</h1>
+          <p>Umawiaj się na pokazanie mieszkań w wygodnym kalendarzu</p>
+        </>
+      }
+    />
+    <DoubleBox
+      imgSrc={RenterRemoteVisitImg}
+      detailsContent={
+        <>
+          <h1>Pokaż mieszkanie online</h1>
+          <p>Umawiaj się potecjalnymi najemcami przez aplikacje. Pokaż im swoje mieszkanie online</p>
+        </>
+      }
+    />
+
+    <LeftDoubleBox
+      imgSrc={LandlordRenterApproveImg}
+      detailsContent={
+        <>
+          <h1>Wirtualny kasting</h1>
           <p>
-            Umawiaj się na oglądanie mieszkania za pośrednictwem aplikacji wybierając termin z kalendarza dostępności
-            właściciela.
+            Wybieraj potencjalnych wynajmujących za pośrednictwem aplikacji, po akceptacji będą mogli umówić się na
+            oględziny w wolnym terminie z twojego kalendarza
           </p>
         </>
       }
     />
 
     <DoubleBox
-      imgSrc={dev2}
-      imgLeft={false}
+      imgSrc={LandlordPaymentsImg}
       detailsContent={
         <>
-          <h1>Oglądanie mieszkania online</h1>
+          <h1>Pobieraj opłaty przez aplikacje</h1>
           <p>
-            Umawiaj się na oglądanie mieszkania za pośrednictwem aplikacji wybierając termin z kalendarza dostępności
-            właściciela.
+            dodawaj comiesięczne opłaty w aplikacji, w tym opłaty dodatkowe (internet, prąd, etc) *otrzymuj comiesięczne
+            wpłaty za miesięczny wynajem i opłaty dodatkowe za pośrednictwem aplikacji
           </p>
         </>
       }
     />
 
-    <DoubleBox
-      imgSrc={dev}
+    <LeftDoubleBox
+      imgSrc={RenterOnlineContractImg}
       detailsContent={
         <>
-          <h1>Oglądanie mieszkania online</h1>
+          <h1>Umowa online</h1>
           <p>
-            Umawiaj się na oglądanie mieszkania za pośrednictwem aplikacji wybierając termin z kalendarza dostępności
-            właściciela.
-          </p>
-        </>
-      }
-    />
+              Podpisz umowę przez aplikację (edytowane). Korzystaj z wygodnych szablonow i dopasuj je do siebie.
 
-    <DoubleBox
-      imgSrc={dev}
-      imgLeft={false}
-      detailsContent={
-        <>
-          <h1>Oglądanie mieszkania online</h1>
-          <p>
-            Umawiaj się na oglądanie mieszkania za pośrednictwem aplikacji wybierając termin z kalendarza dostępności
-            właściciela.
-          </p>
-        </>
-      }
-    />
-
-    <DoubleBox
-      imgSrc={dev}
-      detailsContent={
-        <>
-          <h1>Oglądanie mieszkania online</h1>
-          <p>
-            Umawiaj się na oglądanie mieszkania za pośrednictwem aplikacji wybierając termin z kalendarza dostępności
-            właściciela.
           </p>
         </>
       }

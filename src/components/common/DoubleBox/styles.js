@@ -61,5 +61,6 @@ export const Thumbnail = styled.div`
 
   img {
     width: 100%;
+    max-height: 470px;
   }
 `;
