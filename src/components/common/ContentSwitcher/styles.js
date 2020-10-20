@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ContentSwitcherWrapper = styled.div`
   position: relative;
+  max-height: 100%;
 `
 
 export const TabsWrapper = styled.div`
