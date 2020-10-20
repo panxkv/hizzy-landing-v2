@@ -1,4 +1,4 @@
 export * from './Intro';
-export * from './Skills';
+export * from './OwnerOrRenter/TenantInfo';
 export * from './Contact';
 export * from './OwnerOrRenter';

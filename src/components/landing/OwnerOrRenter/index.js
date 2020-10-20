@@ -1,23 +1,21 @@
 import React from 'react';
-import {Skills, Skills2} from 'components/landing';
+import {TenantInfo} from './TenantInfo';
 import {ContentSwitcher} from 'components/common';
 
 const sectionLeft = {
-  title: 'Hello World',
+  title: 'Renter',
   content: (
     <div style={{backgroundColor: "yellow"}}>
-      <Skills />
-      <Skills2 />
+      <TenantInfo />
     </div>
   )
 }
 
 const sectionRight = {
-  title: 'What up dog',
+  title: 'Owner',
   content: (
     <div style={{backgroundColor: "red"}}>
-      <Skills2 />
-      <Skills />
+      <TenantInfo />
     </div>
   )
 }
