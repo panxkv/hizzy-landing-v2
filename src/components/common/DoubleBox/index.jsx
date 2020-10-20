@@ -4,6 +4,7 @@ import { ThemeContext } from 'providers/ThemeProvider';
 import { Container, Button } from 'components/common';
 import { Wrapper, DoubleBoxWrapper, Details, Thumbnail } from './styles';
 
+
 export const DoubleBox = ( {imgSrc, detailsContent, imgLeft = true} ) => {
   const { theme } = useContext(ThemeContext);
 
