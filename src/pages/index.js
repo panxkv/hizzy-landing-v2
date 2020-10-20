@@ -30,6 +30,7 @@ const TabsWrapper = styled.div`
   display: flex;
   text-transform: capitalize;
   justify-content: center;
+  /* margin-top: -40px; */
 `;
 
 const Tabs = styled.div`
@@ -72,18 +73,28 @@ const TabItem = styled.a`
 const ContentContainer = styled.div`
 `
 
+const TabsWrapperOuter = styled.div`
+  position: absolute;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: -36px;
+`
+
 const ContentSwitcher = ({sectionLeft, sectionRight}) => {
   const [isSectionLeftActive, setIsSectionLeftActive] = useState(true);
 
   return (
     <div style={{position: 'relative'}}>
 
-      <TabsWrapper>
-        <Tabs>
-          <TabItem onClick={() => setIsSectionLeftActive(true)} active={isSectionLeftActive}>{sectionLeft.title}</TabItem>
-          <TabItem onClick={() => setIsSectionLeftActive(false)} active={!isSectionLeftActive}>{sectionRight.title}</TabItem>
-        </Tabs>
-      </TabsWrapper>
+      <TabsWrapperOuter>
+        <TabsWrapper>
+          <Tabs>
+            <TabItem onClick={() => setIsSectionLeftActive(true)} active={isSectionLeftActive}>{sectionLeft.title}</TabItem>
+            <TabItem onClick={() => setIsSectionLeftActive(false)} active={!isSectionLeftActive}>{sectionRight.title}</TabItem>
+          </Tabs>
+        </TabsWrapper>
+      </TabsWrapperOuter>
 
       <ContentContainer>
         {isSectionLeftActive ? sectionLeft.content : sectionRight.content}
