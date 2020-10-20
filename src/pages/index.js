@@ -6,20 +6,20 @@ import styled from 'styled-components';
 const sectionLeft = {
   title: 'Hello World',
   content: (
-    <>
+    <div style={{backgroundColor: "yellow"}}>
       <Skills />
       <Skills2 />
-    </>
+    </div>
   )
 }
 
 const sectionRight = {
   title: 'What up dog',
   content: (
-    <>
+    <div style={{backgroundColor: "red"}}>
       <Skills2 />
       <Skills />
-    </>
+    </div>
   )
 }
 
@@ -30,15 +30,14 @@ const TabsWrapper = styled.div`
   display: flex;
   text-transform: capitalize;
   justify-content: center;
-  /* background-color: blue; */
 `;
 
 const Tabs = styled.div`
-  margin-top: -40px;
+  /* margin-top: -40px; */
   position: relative;
   display: inline-block;
   width: auto;
-  margin-top: -25px;
+  /* margin-top: -25px; */
   height: 72px;
   border-radius: 48px;
   background: #7b53c1;
@@ -49,14 +48,25 @@ const Tabs = styled.div`
 `;
 
 const TabItem = styled.a`
+  display: inline-block;
   color: #fff;
-  font-weight: 600;
+  font-weight: ${props => props.active ? 600 : 400};
   font-size: 1.25rem;
   text-align: center;
   line-height: 72px;
   cursor: pointer;
   position: relative;
   padding: 0 32px;
+
+  &:not(:last-of-type)::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    height: 40px;
+    border-right: 1px solid rgba(255,255,255,.11);
+  }
 `
 
 const ContentContainer = styled.div`
@@ -70,8 +80,8 @@ const ContentSwitcher = ({sectionLeft, sectionRight}) => {
 
       <TabsWrapper>
         <Tabs>
-          <TabItem onClick={() => setIsSectionLeftActive(true)}>{sectionLeft.title}</TabItem>
-          <TabItem onClick={() => setIsSectionLeftActive(false)}>{sectionRight.title}</TabItem>
+          <TabItem onClick={() => setIsSectionLeftActive(true)} active={isSectionLeftActive}>{sectionLeft.title}</TabItem>
+          <TabItem onClick={() => setIsSectionLeftActive(false)} active={!isSectionLeftActive}>{sectionRight.title}</TabItem>
         </Tabs>
       </TabsWrapper>
 
@@ -88,8 +98,6 @@ export default () => (
     <SEO />
     <Intro />
     <ContentSwitcher sectionLeft={sectionLeft} sectionRight={sectionRight} />
-    {/* <Skills />
-    <Skills2 /> */}
     <Contact />
   </Layout>
 );
