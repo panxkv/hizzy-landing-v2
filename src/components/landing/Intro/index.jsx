@@ -14,8 +14,8 @@ export const Intro = () => {
       <Header />
       <IntroWrapper as={Container}>
         <Details theme={theme}>
-          <h1>Hizzy</h1>
-          <h4>Wynajem mieszkań online</h4>
+          <h1>Szwajcarski scyzoryk w świecie wynajmu mieszkań</h1>
+          <h2>Hizzy to zestaw narzędzi, które ułatwią Ci życie na każdym etapie najmu - niezależnie od tego czy jesteś najemcą, czy właścicielem.</h2>
           <Button as={AnchorLink} href="#contact">
             Hire me
           </Button>
