@@ -3,19 +3,21 @@ import { ContentSwitcher } from 'components/common';
 import { TenantInfo } from './TenantInfo';
 import { LandLordInfo } from './LandLordInfo';
 
+// ffe65a
+
 const sectionLeft = {
-  title: 'Renter',
+  title: 'Szukam mieszkania',
   content: (
-    <div>
+    <div style={{backgroundColor: "#f6f6f6"}}>
       <TenantInfo />
     </div>
   ),
 };
 
 const sectionRight = {
-  title: 'Owner',
+  title: 'Jestem właścicielem',
   content: (
-    <div>
+    <div style={{backgroundColor: "#ffb8b8"}}>
       <LandLordInfo />
     </div>
   ),

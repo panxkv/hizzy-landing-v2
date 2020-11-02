@@ -13,9 +13,9 @@ export const TenantInfo = () => (
       imgSrc={LandlordAppointmentsImg}
       detailsContent={
         <>
-          <h1>Oglądanie mieszkania online</h1>
+          <h1>Umawiaj się na oględziny przez kalendarz online</h1>
           <p>
-            Umawiaj się na oglądanie mieszkania za pośrednictwem aplikacji wybierając termin z kalendarza dostępności
+            Koniec ze żmudnymi telefonami. Zapisuj się na oględziny mieszkania za pośrednictwem aplikacji, wybierając dogodny termin z kalendarza dostępności
             właściciela.
           </p>
         </>
@@ -26,8 +26,8 @@ export const TenantInfo = () => (
       imgSrc={RemoteVisitImg}
       detailsContent={
         <>
-          <h1>Zobacz mieszkanie bez wychodzenia z domu </h1>
-          <p>Bierz udział w wirtualnych/zdalnych oględzinach mieszkania.</p>
+          <h1>Zobacz mieszkanie bez wychodzenia z domu</h1>
+          <p>Nie możesz pojawić się osobiście? Bierz udział w wirtualnych oględzinach mieszkania poprzez połączenie wideo z właścicielem lub spaceruj po mieszkaniu korzystając z wizualizacji 3D.</p>
         </>
       }
     />
@@ -36,27 +36,27 @@ export const TenantInfo = () => (
       detailsContent={
         <>
           <h1>Podpisz umowę online</h1>
-          <p>Podpisz umowę przez aplikację</p>
+          <p>Po przespaniu się z decyzją stwierdziłeś/aś, że to jest to wymarzone mieszkanie? Poinformuj o tym właściciela jednym kliknięciem, a otrzymasz treść umowy do podpisu elektronicznego.</p>
         </>
       }
     />
 
     <LeftDoubleBox
-      imgSrc={RenterCommunicationImg}
+      imgSrc={RenterOnlinePaymentsImg}
       detailsContent={
         <>
-          <h1>Komunikacja z właścicielem</h1>
-          <p>Komunikuj się z właścicielem przez aplikację</p>
+          <h1>Płać czynsz i swoje rachunki online</h1>
+          <p>Otrzymuj comiesięczne rachunki za czynsz od właściciela wewnątrz aplikacji. Następnie opłacać je w kilka sekund poprzez zintegrowane płatności online.</p>
         </>
       }
     />
 
     <DoubleBox
-      imgSrc={RenterOnlinePaymentsImg}
+      imgSrc={RenterCommunicationImg}
       detailsContent={
         <>
-          <h1>Płać czynsz i swoje rachunki online</h1>
-          <p>Opłacaj comiesięczne rachunki przez aplikację</p>
+          <h1>Komunikuj się z właścicielem przez aplikację</h1>
+          <p>Zepsuty kran? A może nie jesteś pewien, czy możesz wywiercić dziurę w ścianie by powiesić swój nowy obraz? Skontaktuj się z właścicielem przy pomocy wbudowanego komunikatora tekstowego.</p>
         </>
       }
     />
