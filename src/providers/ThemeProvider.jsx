@@ -1,18 +1,11 @@
 import React, { createContext } from 'react';
-import useDarkMode from 'hooks/useDarkMode';
 
-export const ThemeContext = createContext('light');
+const theme = 'light';
+export const ThemeContext = createContext(theme);
 
 export default ({ children }) => {
-  const [theme, toggleTheme] = useDarkMode();
-
   return (
-    <ThemeContext.Provider
-      value={{
-        theme,
-        toggleTheme,
-      }}
-    >
+    <ThemeContext.Provider value={{theme}}>
       {children}
     </ThemeContext.Provider>
   );
