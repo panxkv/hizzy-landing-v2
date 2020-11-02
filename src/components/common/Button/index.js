@@ -2,8 +2,11 @@ import styled from 'styled-components';
 
 export const Button = styled.button`
   cursor: pointer;
-  border-radius: 3px;
-  padding: 0.7rem 2.5rem;
+  border-radius: 28px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 16px 32px;
   border: none;
   -webkit-appearance: none;
   -webkit-touch-callout: none;
@@ -13,7 +16,13 @@ export const Button = styled.button`
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background: #0074d9;
+  background: #363c54;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    background: #434a68;
+  }
 
   &:focus {
     outline: none;
