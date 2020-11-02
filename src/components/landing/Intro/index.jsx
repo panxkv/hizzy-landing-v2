@@ -17,7 +17,7 @@ export const Intro = () => {
           <h1>Szwajcarski scyzoryk w świecie wynajmu mieszkań</h1>
           <h2>Hizzy to zestaw narzędzi, które ułatwią Ci życie na każdym etapie najmu - niezależnie od tego czy jesteś najemcą, czy właścicielem.</h2>
           <Button as={AnchorLink} href="#contact">
-            Powiedz nam, co myślisz!
+            Brzmi ciekawie? Daj nam znać!
           </Button>
         </Details>
         <Thumbnail>
