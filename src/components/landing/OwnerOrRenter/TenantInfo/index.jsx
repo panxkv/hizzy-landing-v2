@@ -36,7 +36,7 @@ export const TenantInfo = () => (
       detailsContent={
         <>
           <h1>Podpisz umowę online</h1>
-          <p>Po przespaniu się z decyzją stwierdziłeś/aś, że to jest to wymarzone mieszkanie? Poinformuj o tym właściciela jednym kliknięciem, a otrzymasz treść umowy do podpisu elektronicznego.</p>
+          <p>Po przespaniu się z decyzją stwierdziłeś, że znalazłeś "to wymarzone" mieszkanie? Poinformuj o tym właściciela jednym kliknięciem, a otrzymasz treść umowy do podpisu elektronicznego.</p>
         </>
       }
     />

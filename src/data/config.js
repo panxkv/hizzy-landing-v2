@@ -16,7 +16,7 @@ module.exports = {
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
   social: {
-    facebook: 'appId',
+    facebook: '1018665288651787',
     twitter: '@hizzy',
   },
 };
