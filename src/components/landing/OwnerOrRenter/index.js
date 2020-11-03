@@ -24,7 +24,7 @@ const sectionRight = {
 };
 
 export const OwnerOrRenter = () => (
-  <div>
+  <div id="owner-or-renter" style={{paddingTop: "1rem"}}>
     <div style={{margin: "0 auto", textAlign: "center", maxWidth: "600px", marginBottom: "80px"}}>
       <h1>Powiedz nam kim jesteś, a my powiemy jak Hizzy może Ci pomóc 💁</h1>
     </div>
