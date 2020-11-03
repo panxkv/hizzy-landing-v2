@@ -43,7 +43,7 @@ export const Details = styled.div`
   }
 
   h2 {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
     font-size: 18pt;
     font-weight: normal;
     color: #707070;
