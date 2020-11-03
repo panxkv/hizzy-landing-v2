@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   padding: 4rem 0;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 
   @media (max-width: 960px) {
@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Details = styled.div`
-  flex: 1;
+  flex: 2;
   padding-right: 2rem;
 
   @media (max-width: 960px) {
@@ -29,7 +29,7 @@ export const Details = styled.div`
 
   p {
     margin-bottom: 2.5rem;
-    font-size: 20pt;
+    font-size: 16pt;
     font-weight: normal;
     line-height: 1.3;
     color: #707070;
@@ -45,6 +45,6 @@ export const Thumbnail = styled.div`
   }
 
   img {
-    width: 100%;
+    max-width: 340px;
   }
 `;
