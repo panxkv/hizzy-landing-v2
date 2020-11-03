@@ -3,7 +3,7 @@ import LandlordAppointmentsImg from 'assets/illustrations/Landlord_appointments.
 import RemoteVisitImg from 'assets/illustrations/Renter_Remote_Visit.svg';
 import OnlineContractImg from 'assets/illustrations/Renter_Online_Contract.svg';
 import RenterCommunicationImg from 'assets/illustrations/Renter_Communication.svg';
-import RenterOnlinePaymentsImg from 'assets/illustrations/Renter_Online_Payments.svg';
+import RenterOnlinePaymentsImg from 'assets/illustrations/card3.svg';
 import { DoubleBox } from 'components/common/DoubleBox';
 import { LeftDoubleBox } from 'components/common/LeftDoubleBox';
 
