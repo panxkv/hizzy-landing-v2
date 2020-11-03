@@ -29,7 +29,12 @@ export const ContentSwitcher = ({sectionLeft, sectionRight}) => {
       </TabsWrapperOuter>
 
       <div>
-        {isSectionLeftActive ? sectionLeft.content : sectionRight.content}
+        <div style={{display: isSectionLeftActive ? 'block' : 'none'}}>
+          {sectionLeft.content}
+        </div>
+        <div style={{display: isSectionLeftActive ? 'none' : 'block'}}>
+          {sectionRight.content}
+        </div>
       </div>
     </ContentSwitcherWrapper>
   )
