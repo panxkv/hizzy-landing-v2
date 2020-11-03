@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "hizzy-landing",
   "private": true,
-  "description": "A simple portfolio for developers",
-  "version": "0.1.2",
-  "author": "Smakosh <ismai23l@hotmail.com>",
+  "description": "Hizzy Landing Page",
+  "version": "0.0.1",
+  "author": "Hizzy Corp Gang",
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "^6.2.0",
@@ -62,9 +62,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
-  },
-  "bugs": {
-    "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+    "url": "git@github.com:panxkv/hizzy-landing-v2.git"
   }
 }

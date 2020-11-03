@@ -1,10 +1,9 @@
 module.exports = {
-  defaultTitle: 'John Doe',
+  defaultTitle: 'Hizzy - mieszkania i nieruchomości do wynajęcia online',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-  author: 'John Doe',
-  url: 'https://portfolio.smakosh.com',
-  legalName: 'John Doe',
-  defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+  author: 'Hizzy Corp',
+  url: 'https://hizzy.pl',
+  defaultDescription: 'Mieszkania i nieruchomości do wynajęcia, zarządzanie najmem, płatności online, umowa przez internet - hizzy.pl',
   socialLinks: {
     twitter: 'http://www.twitter.com/smakosh',
     github: 'https://github.com/smakosh',
@@ -20,15 +19,4 @@ module.exports = {
     facebook: 'appId',
     twitter: '@hizzy',
   },
-  address: {
-    city: 'City',
-    region: 'Region',
-    country: 'Country',
-    zipCode: 'ZipCode',
-  },
-  contact: {
-    email: 'email',
-    phone: 'phone number',
-  },
-  foundingDate: '2018',
 };
