@@ -3,11 +3,8 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   a {
     color: #000;
-    text-decoration: none;
-
-		@media (max-width: 960px) {
-			color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
-		}
+		text-decoration: none;
+		font-size: 18px;
   }
 
   ${({ desktop }) =>
@@ -22,6 +19,8 @@ export const Wrapper = styled.div`
 
 			a {
 					margin-right: 1rem;
+					font-weight: 600;
+					color: #363c54;
 
 					&:last-child {
 							margin-right: unset;

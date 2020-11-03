@@ -7,7 +7,7 @@ export const ContentSwitcherWrapper = styled.div`
 
 export const TabsWrapper = styled.div`
   position: sticky;
-  top: 0;
+  top: 12px;
   z-index: 2;
   display: flex;
   text-transform: capitalize;

@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <Wrapper as={Container}>
       <Brand as={Link} to="/" theme={theme}>
-        <img src={dev} />
+        <img src={dev} style={{marginBottom: 0}}/>
       </Brand>
       <NavbarLinks desktop />
     </Wrapper>

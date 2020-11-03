@@ -19,7 +19,7 @@ export const DoubleBox = ( {imgSrc, detailsContent, imgLeft = true} ) => {
   )
 
   return (
-    <Wrapper id="about">
+    <Wrapper>
       <DoubleBoxWrapper as={Container}>
        {imgBox}{textBox}
       </DoubleBoxWrapper>
