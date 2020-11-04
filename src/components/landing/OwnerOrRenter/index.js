@@ -25,9 +25,9 @@ const sectionRight = {
 
 export const OwnerOrRenter = () => (
   <div id="owner-or-renter" style={{paddingTop: "1rem"}}>
-    <div style={{margin: "0 auto", textAlign: "center", maxWidth: "600px", marginBottom: "80px"}}>
+    {/* <div style={{margin: "0 auto", textAlign: "center", maxWidth: "600px", marginBottom: "80px"}}>
       <h1 style={{fontWeight: 600}}>Powiedz nam kim jesteś, a my powiemy jak Hizzy może Ci pomóc 💁</h1>
-    </div>
+    </div> */}
     <ContentSwitcher sectionLeft={sectionLeft} sectionRight={sectionRight} />;
   </div>
 )

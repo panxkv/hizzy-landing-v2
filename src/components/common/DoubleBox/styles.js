@@ -1,12 +1,4 @@
 import styled from 'styled-components';
-import detailsIllustration from 'assets/illustrations/details.svg';
-
-export const Wrapper = styled.div`
-  /* background-image: url(${detailsIllustration});
-  background-size: contain;
-  background-position: left top;
-  background-repeat: no-repeat; */
-`;
 
 export const DoubleBoxWrapper = styled.div`
   padding: 4rem 0;
@@ -15,7 +7,7 @@ export const DoubleBoxWrapper = styled.div`
   justify-content: space-between;
 
   @media (max-width: 960px) {
-    flex-direction: column;
+    flex-direction: ${({ imgPosition }) => (imgPosition === 'left' ? 'column' : 'column-reverse')};
   }
 `;
 

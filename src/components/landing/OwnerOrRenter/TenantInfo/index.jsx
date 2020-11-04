@@ -5,7 +5,6 @@ import OnlineContractImg from 'assets/illustrations/Renter_Online_Contract.svg';
 import RenterCommunicationImg from 'assets/illustrations/Renter_Communication.svg';
 import RenterOnlinePaymentsImg from 'assets/illustrations/card3.svg';
 import { DoubleBox } from 'components/common/DoubleBox';
-import { LeftDoubleBox } from 'components/common/LeftDoubleBox';
 
 export const TenantInfo = () => (
   <>
@@ -21,8 +20,9 @@ export const TenantInfo = () => (
       }
     />
 
-    <LeftDoubleBox
+    <DoubleBox
       imgSrc={RemoteVisitImg}
+      imgPosition="right"
       detailsContent={
         <>
           <h1>Zobacz mieszkanie bez wychodzenia z domu</h1>
@@ -40,8 +40,9 @@ export const TenantInfo = () => (
       }
     />
 
-    <LeftDoubleBox
+    <DoubleBox
       imgSrc={RenterOnlinePaymentsImg}
+      imgPosition="right"
       detailsContent={
         <>
           <h1>Płać czynsz i swoje rachunki online</h1>

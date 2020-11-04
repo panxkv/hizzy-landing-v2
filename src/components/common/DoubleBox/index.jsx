@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
-import { Container, Button } from 'components/common';
-import { Wrapper, DoubleBoxWrapper, Details, Thumbnail } from './styles';
+import { Container } from 'components/common';
+import { DoubleBoxWrapper, Details, Thumbnail } from './styles';
 
-export const DoubleBox = ( {imgSrc, detailsContent, imgLeft = true} ) => {
+export const DoubleBox = ( {imgSrc, detailsContent, imgPosition = 'left'} ) => {
   const { theme } = useContext(ThemeContext);
 
   const imgBox = (
@@ -19,10 +19,8 @@ export const DoubleBox = ( {imgSrc, detailsContent, imgLeft = true} ) => {
   )
 
   return (
-    <Wrapper>
-      <DoubleBoxWrapper as={Container}>
-       {imgBox}{textBox}
-      </DoubleBoxWrapper>
-    </Wrapper>
+    <DoubleBoxWrapper as={Container} imgPosition={imgPosition}>
+      {imgPosition === 'left' ? <>{imgBox}{textBox}</> : <>{textBox}{imgBox}</>}
+    </DoubleBoxWrapper>
   );
 };

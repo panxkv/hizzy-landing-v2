@@ -6,7 +6,6 @@ import LandlordRenterApproveImg from 'assets/illustrations/Landlord_renter_appro
 import LandlordPaymentsImg from 'assets/illustrations/Landlord_payments.svg';
 import RenterOnlineContractImg from 'assets/illustrations/Renter_Online_Contract.svg';
 import { DoubleBox } from 'components/common/DoubleBox';
-import { LeftDoubleBox } from 'components/common/LeftDoubleBox';
 
 export const LandLordInfo = () => (
   <>
@@ -20,8 +19,9 @@ export const LandLordInfo = () => (
       }
     />
 
-    <LeftDoubleBox
+    <DoubleBox
       imgSrc={LandlordAppointmentsImg}
+      imgPosition="right"
       detailsContent={
         <>
           <h1>Kalendarz</h1>
@@ -39,8 +39,9 @@ export const LandLordInfo = () => (
       }
     />
 
-    <LeftDoubleBox
+    <DoubleBox
       imgSrc={LandlordRenterApproveImg}
+      imgPosition="right"
       detailsContent={
         <>
           <h1>Wirtualny kasting</h1>
@@ -65,14 +66,14 @@ export const LandLordInfo = () => (
       }
     />
 
-    <LeftDoubleBox
+    <DoubleBox
       imgSrc={RenterOnlineContractImg}
+      imgPosition="right"
       detailsContent={
         <>
           <h1>Umowa online</h1>
           <p>
               Podpisz umowę przez aplikację (edytowane). Korzystaj z wygodnych szablonow i dopasuj je do siebie.
-
           </p>
         </>
       }
