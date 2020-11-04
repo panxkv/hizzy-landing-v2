@@ -47,10 +47,10 @@ export const Details = styled.div`
     font-size: 18pt;
     line-height: 1.4;
     font-weight: normal;
-    color: #707070;
+    color: #455a64;
 
     @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+      mix-blend-mode: 'unset';
     }
 
     @media (max-width: 680px) {

@@ -32,7 +32,7 @@ export const Details = styled.div`
     font-size: 16pt;
     font-weight: normal;
     line-height: 1.3;
-    color: #707070;
+    color: #455a64;
   }
 `;
 

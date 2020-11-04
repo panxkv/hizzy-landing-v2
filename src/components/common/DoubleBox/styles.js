@@ -20,10 +20,11 @@ export const Details = styled.div`
     width: 100%;
   }
 
-  h1 {
+  h2 {
     margin-bottom: 2rem;
     font-size: 26pt;
-    color: ${({ theme }) => (theme === 'dark' ? '#fff' : '#212121')};
+    line-height: 1.2;
+    color: #23272a;
 
     @media (max-width: 960px) {
       mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
@@ -32,10 +33,10 @@ export const Details = styled.div`
 
   p {
     margin-bottom: 2.5rem;
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: normal;
-    line-height: 1.3;
-    color: ${({ theme }) => (theme === 'dark' ? '#c7c7c7' : '#707070')};
+    line-height: 1.5;
+    color: #455a64;
 
     @media (max-width: 960px) {
       mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};

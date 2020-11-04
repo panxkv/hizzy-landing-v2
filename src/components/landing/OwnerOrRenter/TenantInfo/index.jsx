@@ -12,7 +12,7 @@ export const TenantInfo = () => (
       imgSrc={LandlordAppointmentsImg}
       detailsContent={
         <>
-          <h1>Umawiaj się na oględziny przez kalendarz online</h1>
+          <h2>Umawiaj się na oględziny przez kalendarz online</h2>
           <p>
             Koniec ze żmudnymi telefonami. Zapisuj się na oględziny mieszkania za pośrednictwem aplikacji, wybierając dogodny termin z kalendarza dostępności właściciela.
           </p>
@@ -25,7 +25,7 @@ export const TenantInfo = () => (
       imgPosition="right"
       detailsContent={
         <>
-          <h1>Zobacz mieszkanie bez wychodzenia z domu</h1>
+          <h2>Zobacz mieszkanie bez wychodzenia z domu</h2>
           <p>Nie możesz pojawić się osobiście? Bierz udział w wirtualnych oględzinach mieszkania poprzez połączenie wideo z właścicielem lub spaceruj po mieszkaniu korzystając z technologii VR 360.</p>
         </>
       }
@@ -34,7 +34,7 @@ export const TenantInfo = () => (
       imgSrc={OnlineContractImg}
       detailsContent={
         <>
-          <h1>Podpisz umowę online</h1>
+          <h2>Podpisz umowę online</h2>
           <p>Stwierdziłeś, że znalazłeś wymarzone mieszkanie? Poinformuj o tym właściciela jednym kliknięciem, a otrzymasz treść umowy do podpisu elektronicznego.</p>
         </>
       }
@@ -45,7 +45,7 @@ export const TenantInfo = () => (
       imgPosition="right"
       detailsContent={
         <>
-          <h1>Płać czynsz i swoje rachunki online</h1>
+          <h2>Płać czynsz i swoje rachunki online</h2>
           <p>Otrzymuj comiesięczne rachunki za czynsz od właściciela wewnątrz aplikacji. Następnie opłać je w kilka sekund poprzez zintegrowane płatności online.</p>
         </>
       }
@@ -55,7 +55,7 @@ export const TenantInfo = () => (
       imgSrc={RenterCommunicationImg}
       detailsContent={
         <>
-          <h1>Komunikuj się z właścicielem przez aplikację</h1>
+          <h2>Komunikuj się z właścicielem przez aplikację</h2>
           <p>Zepsuty kran? A może nie jesteś pewien, czy możesz wywiercić dziurę w ścianie? Skontaktuj się z właścicielem przy pomocy wbudowanego komunikatora.</p>
         </>
       }

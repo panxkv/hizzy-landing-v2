@@ -13,7 +13,7 @@ export const LandLordInfo = () => (
       imgSrc={LandlordMultipleOffersImg}
       detailsContent={
         <>
-          <h1>Kreator ofert</h1>
+          <h2>Kreator ofert</h2>
           <p>Dodawaj jedną lub wiele ofert przy pomocy wygodnego kreatora ofert</p>
         </>
       }
@@ -24,7 +24,7 @@ export const LandLordInfo = () => (
       imgPosition="right"
       detailsContent={
         <>
-          <h1>Kalendarz</h1>
+          <h2>Kalendarz</h2>
           <p>Umawiaj się na pokazanie mieszkań w wygodnym kalendarzu</p>
         </>
       }
@@ -33,7 +33,7 @@ export const LandLordInfo = () => (
       imgSrc={RenterRemoteVisitImg}
       detailsContent={
         <>
-          <h1>Pokaż mieszkanie online</h1>
+          <h2>Pokaż mieszkanie online</h2>
           <p>Umawiaj się potecjalnymi najemcami przez aplikacje. Pokaż im swoje mieszkanie online</p>
         </>
       }
@@ -44,7 +44,7 @@ export const LandLordInfo = () => (
       imgPosition="right"
       detailsContent={
         <>
-          <h1>Wirtualny kasting</h1>
+          <h2>Wirtualny kasting</h2>
           <p>
             Wybieraj potencjalnych wynajmujących za pośrednictwem aplikacji, po akceptacji będą mogli umówić się na
             oględziny w wolnym terminie z twojego kalendarza
@@ -57,7 +57,7 @@ export const LandLordInfo = () => (
       imgSrc={LandlordPaymentsImg}
       detailsContent={
         <>
-          <h1>Pobieraj opłaty przez aplikacje</h1>
+          <h2>Pobieraj opłaty przez aplikacje</h2>
           <p>
             dodawaj comiesięczne opłaty w aplikacji, w tym opłaty dodatkowe (internet, prąd, etc) *otrzymuj comiesięczne
             wpłaty za miesięczny wynajem i opłaty dodatkowe za pośrednictwem aplikacji
@@ -71,7 +71,7 @@ export const LandLordInfo = () => (
       imgPosition="right"
       detailsContent={
         <>
-          <h1>Umowa online</h1>
+          <h2>Umowa online</h2>
           <p>
               Podpisz umowę przez aplikację (edytowane). Korzystaj z wygodnych szablonow i dopasuj je do siebie.
           </p>
