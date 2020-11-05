@@ -17,7 +17,7 @@ export const Tabs = styled.div`
   display: inline-block;
   height: 72px;
   border-radius: 48px;
-  background: #7b53c1;
+  background: #8000d0;
   box-shadow: 0 14px 24px 0 rgba(50,49,58,.25);
   z-index: 2;
   vertical-align: middle;
@@ -41,7 +41,7 @@ export const TabItem = styled.a`
     right: 0;
     top: 16px;
     height: 40px;
-    border-right: 1px solid rgba(255,255,255,.11);
+    border-right: 1px solid rgba(255,255,255,.5);
   }
 `
 

@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
 			a {
 					margin-right: 1rem;
 					font-weight: 600;
-					color: #363c54;
+					color: #8000d0;
 
 					&:last-child {
 							margin-right: unset;
