@@ -10,7 +10,6 @@ export const TabsWrapper = styled.div`
   top: 12px;
   z-index: 2;
   display: flex;
-  text-transform: capitalize;
   justify-content: center;
 `;
 
